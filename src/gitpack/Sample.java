@@ -1,16 +1,16 @@
 package gitpack;
 
-class AdditionExample {
-	public int add(int x, int y) {
-		int sum=x+y;
-		return sum;
+class MultiplicationExample {
+	public int mul(int x, int y) {
+		int mul=x*y;
+		return mul;
 	}
 }
 
 public class Sample {
 	public static void main(String[] args) {
-		AdditionExample obj = new AdditionExample();
-		int result=obj.add(10, 20);
-		System.out.println("Sum of two numbers:"+result);
+		MultiplicationExample obj = new MultiplicationExample();
+		int result=obj.mul(10, 20);
+		System.out.println("Multiplication of two numbers:"+result);
 	}
 }
